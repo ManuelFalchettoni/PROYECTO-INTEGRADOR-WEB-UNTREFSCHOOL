@@ -1,4 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Paleta de colores #FC7300 , #1F8A70 , #00425A ,
+#181823, #EFF5F5
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:wght@300&display=swap');
+/*  font-family: 'Belanosima', sans-serif;
+ font-family: 'Poppins', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
 }
