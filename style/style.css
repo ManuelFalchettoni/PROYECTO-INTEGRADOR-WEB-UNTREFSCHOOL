@@ -87,7 +87,16 @@
   margin: 0;
 }
 
-
+@media (max-width: 768px) {
+  .box {
+    flex-direction: column; /* Cambia la dirección de flexbox en pantallas pequeñas */
+  }
+  
+  .subtitulo-izquierdo,
+  .subtitulo-derecho {
+    padding: 10px; /* Reducir el espaciado interno en pantallas pequeñas */
+  }
+}
 
 
 
