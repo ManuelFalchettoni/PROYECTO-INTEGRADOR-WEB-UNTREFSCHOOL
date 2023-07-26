@@ -70,20 +70,21 @@
 /* Footer */
 
 .footer {
-  display: flex; /* Utilizar flexbox para alinear los elementos */
-  justify-content: space-between; /* Espacio entre los elementos */
-  align-items: center; /* Alinear verticalmente los elementos */
-  background-color: #f2f2f2; /* Color de fondo del pie de página */
-  padding: 20px; /* Espaciado interno para el pie de página */
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten a varias filas si es necesario */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 .redes-sociales a {
-  margin-right: 10px; /* Espacio entre los íconos*/
+  margin-right: 10px;
 }
 
 .redes-sociales img {
-  width: 20px; /*ancho*/
-  height: 20px; /*altura*/
+  width: 20px;
+  height: 20px;
 }
 
 .nombre-instituto h3 {
@@ -93,4 +94,23 @@
 .contactos p {
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .redes-sociales {
+    margin-bottom: 10px; 
+  }
+}
+
+
+
+
+
+
+
+
 
