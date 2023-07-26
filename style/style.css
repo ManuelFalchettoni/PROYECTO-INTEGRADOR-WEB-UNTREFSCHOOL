@@ -65,3 +65,32 @@
 }
 
 
+
+
+/* Footer */
+
+.footer {
+  display: flex; /* Utilizar flexbox para alinear los elementos */
+  justify-content: space-between; /* Espacio entre los elementos */
+  align-items: center; /* Alinear verticalmente los elementos */
+  background-color: #f2f2f2; /* Color de fondo del pie de página */
+  padding: 20px; /* Espaciado interno para el pie de página */
+}
+
+.redes-sociales a {
+  margin-right: 10px; /* Espacio entre los íconos*/
+}
+
+.redes-sociales img {
+  width: 20px; /*ancho*/
+  height: 20px; /*altura*/
+}
+
+.nombre-instituto h3 {
+  margin: 0;
+}
+
+.contactos p {
+  margin: 0;
+}
+
