@@ -17,9 +17,14 @@ p{
     font-size: 17px;
   }
 }
+/* ---------------------------------------- */
+/* Navbar */
+nav{
+  background-color: #e4e4e4;
+}
 
 
-
+/* ------------------------------- */
 /* Banner */
 .banner {
   position: relative;
@@ -47,8 +52,10 @@ p{
 }
 /* ---------------------------------------------- */
 
-/* Quienes Somos*/
-
+/* Quienes Somos///Porque */
+#porQue{
+  background-color: #f1f1f1;
+}
 .contenido {
   max-width: 100%; /*ancho máximo*/
   margin: 0 auto; /* Centrado*/
@@ -87,10 +94,12 @@ p{
   }
 }
 
-
+/* --------------------------------------- */
 
 /* Noticias */
-
+#noticias{
+  background-color: #f1f1f1;
+}
 .box {
   display: flex;
 }
@@ -121,7 +130,7 @@ p{
     padding: 10px; /* Reducir el espaciado interno en pantallas pequeñas */
   }
 }
-
+/* -------------------------------------------- */
 
 
 /* Footer */
@@ -131,7 +140,7 @@ p{
   flex-wrap: wrap; /* Permite que los elementos se ajusten a varias filas si es necesario */
   justify-content: space-between;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: #e4e4e4;
   padding: 20px;
 }
 
