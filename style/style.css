@@ -48,6 +48,7 @@
 
 .contenido h2 {
   margin-bottom: 20px; /* Espacio*/
+  text-align: center;
 }
 
 .imagen-con-texto {
@@ -63,6 +64,29 @@
 .imagen-con-texto p {
   flex: 1; /*espacio restante*/
 }
+
+/* Noticias */
+
+.box {
+  display: flex;
+}
+
+.subtitulo-izquierdo,
+.subtitulo-derecho {
+  flex: 1; /*mismo ancho */
+  padding: 20px; /* Espaciado interno*/
+}
+
+.subtitulo-izquierdo h3,
+.subtitulo-derecho h3 {
+  margin: 0;
+}
+
+.subtitulo-izquierdo p,
+.subtitulo-derecho p {
+  margin: 0;
+}
+
 
 
 
@@ -105,6 +129,7 @@
     margin-bottom: 10px; 
   }
 }
+/* ---------------------------- */
 
 
 
