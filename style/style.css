@@ -149,6 +149,7 @@ nav {
   align-items: center;
   background-color: #e4e4e4;
   padding: 20px;
+  width: 100%;
 }
 
 .redes-sociales a {
@@ -197,14 +198,17 @@ nav {
   padding: 0 0 15px 0;
 }
 
-
+main{
+  min-height: 100vh;
+}
 .mainContacto {
-  margin: auto; }
-  body .mainContacto form {
+  margin: auto; 
+}
+.mainContacto form {
   background-color: #f8f5ee;
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 50vw;
   border-radius: 10px;
   font-size: 1.0em;
   margin: 0 auto;
@@ -238,4 +242,12 @@ nav {
 }
 .mainContacto form .btn-green:active {
   background-color: #29962A; 
+} 
+
+@media (max-width: 550px) {
+
+  .mainContacto form{
+    width: 100vw
+
+  }
 }
