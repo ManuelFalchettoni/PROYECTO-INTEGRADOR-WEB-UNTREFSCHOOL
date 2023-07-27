@@ -1,28 +1,27 @@
 /* Paleta de colores #FC7300 , #1F8A70 , #00425A ,
 #181823, #EFF5F5
  */
- @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:wght@300&display=swap");
 /*  font-family: 'Belanosima', sans-serif;
  font-family: 'Poppins', sans-serif; */
 * {
   margin: 0;
   padding: 0;
 }
-p{
+p {
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 @media (max-width: 320px) {
-  p{
+  p {
     font-size: 17px;
   }
 }
 /* ---------------------------------------- */
 /* Navbar */
-nav{
+nav {
   background-color: #e4e4e4;
 }
-
 
 /* ------------------------------- */
 /* Banner */
@@ -32,6 +31,7 @@ nav{
   width: 100%;
   height: 40vh;
   overflow: hidden; /*sobresalga */
+  margin-bottom: 30px;
 }
 
 .banner img {
@@ -50,32 +50,40 @@ nav{
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 400px) {
+  .titulo-banner{
+    font-size: 11vw;
+  }
+}
+
 /* ---------------------------------------------- */
 
 /* Quienes Somos///Porque */
-#porQue{
+#porQue {
   background-color: #f1f1f1;
 }
 .contenido {
   max-width: 100%; /*ancho máximo*/
   margin: 0 auto; /* Centrado*/
-  padding: 20px; 
+  padding: 20px;
 }
 
 .contenido h2 {
-  text-align: center; 
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .imagen-con-texto {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap; /* Permitir que los elementos se ajusten a varias filas si es necesario */
-  align-items: center; 
+  align-items: center;
 }
 
 .imagen-con-texto img {
-  max-width: 50%; 
-  margin-right: 20px; 
+  max-width: 50%;
+  max-height: 50vh;
+  margin-right: 20px;
 }
 
 .imagen-con-texto p {
@@ -84,20 +92,20 @@ nav{
 
 @media (max-width: 768px) {
   .imagen-con-texto {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .imagen-con-texto img {
-    max-width: 100%; 
-    margin-right: 0; 
-    margin-bottom: 10px; 
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 }
 
 /* --------------------------------------- */
 
 /* Noticias */
-#noticias{
+#noticias {
   background-color: #f1f1f1;
 }
 .box {
@@ -124,14 +132,13 @@ nav{
   .box {
     flex-direction: column; /* Cambia la dirección de flexbox en pantallas pequeñas */
   }
-  
+
   .subtitulo-izquierdo,
   .subtitulo-derecho {
     padding: 10px; /* Reducir el espaciado interno en pantallas pequeñas */
   }
 }
 /* -------------------------------------------- */
-
 
 /* Footer */
 
@@ -163,21 +170,72 @@ nav{
 
 @media (max-width: 768px) {
   .footer {
-    flex-direction: column; 
-    text-align: center; 
+    flex-direction: column;
+    text-align: center;
   }
 
   .redes-sociales {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
   }
 }
 /* ---------------------------- */
 
+/* Formulario */
+
+.mainContacto{
+  padding: 2% 0 20% 0;
+}
+
+.mainContacto h1 {
+  color: #494B4D;
+  font-size: 2.5em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px 0; 
+  padding: 0 0 15px 0;
+}
 
 
+.mainContacto {
+  margin: auto; }
+  body .mainContacto form {
+  background-color: #f8f5ee;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 10px;
+  font-size: 1.0em;
+  margin: 0 auto;
+  padding: 20px; 
+}
+.mainContacto form .form-group .form-row .col .field {
+  border: 1px solid #ccc;
+  padding: 10px; 
+}
+.mainContacto form .form-group .form-row .col .field:focus {
+  border-color: #4ea5f1; 
+}
 
-
-
-
-
-
+.mainContacto form .center-content {
+  text-align: center; 
+}
+.mainContacto form .center-content .btn {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); 
+}
+.mainContacto form .btn-green {
+  color: white;
+  background-color: #3CC93F; 
+}
+.mainContacto form .btn-green:hover {
+  background-color: #37B839; 
+}
+.mainContacto form .btn-green:active {
+  background-color: #29962A; 
+}
