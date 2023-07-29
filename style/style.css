@@ -20,6 +20,9 @@ p {
 a {
   text-decoration: none;
 }
+h3{
+  padding-bottom: 10px;
+}
 /* ---------------------------------------- */
 /* Navbar */
 nav {
